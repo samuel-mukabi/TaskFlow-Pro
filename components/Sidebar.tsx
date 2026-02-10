@@ -10,7 +10,7 @@ const Sidebar = ({ fontClass }: { fontClass?: string }) => {
     const pathname = usePathname()
     const { profile } = useUserProfile()
 
-    // Default to empty strings if profile is loading or null
+    // Default to empty strings if the profile is loading or null
     const fullName = profile?.full_name || ""
     const email = profile?.email || ""
 

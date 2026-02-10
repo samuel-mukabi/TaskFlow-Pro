@@ -1,28 +1,25 @@
 'use client'
 
-import React, {useEffect, useState} from 'react'
-import {useUser} from "@/context/UserContext";
-import {createClient} from "@/utils/supabase/client";
-import {getUserProfile} from "@/lib/db/profiles";
-import {useRouter} from 'next/navigation'
-import {updateProfile} from "@/utils/supabase/auth";
+import React, { useEffect, useState } from 'react'
+import { useUser } from "@/context/UserContext";
+import {fetchUserProfile, updateProfile} from "@/app/actions/profiles";
 
-const Settings = () => {
-    const supabase = createClient()
-    const {user} = useUser()
+const Settings = () => {    const { user } = useUser()
     const [fullName, setFullName] = useState<string>("")
     const [email, setEmail] = useState<string>("")
     const [jobTitle, setJobTitle] = useState<string>("")
     const [newFirstName, setNewFirstName] = useState<string>("")
     const [newLastName, setNewLastName] = useState<string>("")
     const [bio, setBio] = useState<string>("")
+    const [loading, setLoading] = useState(false)
+    const [avatar, setAvatar] = useState<string | null>(null)
 
     useEffect(() => {
         if (!user) return
         const fetchProfile = async () => {
             if (!user) return
 
-            const profile = await getUserProfile(supabase, user.id)
+            const profile = await fetchUserProfile(user.id)
             if (profile) {
                 const loadedFullName = profile.full_name || ""
                 const first = loadedFullName.split(' ')[0] || ""
@@ -34,6 +31,7 @@ const Settings = () => {
                 setEmail(profile.email || "")
                 setJobTitle(profile.job_title || "")
                 setBio(profile.bio || "")
+                setAvatar(profile.avatar_url || null)
             }
         }
 
@@ -51,15 +49,19 @@ const Settings = () => {
 
                 {/* Avatar Upload */}
                 <div className="flex items-center gap-6 mb-6 pb-6 border-b border-slate-200">
-                    <div className="w-20 h-20 bg-indigo-500 rounded-full flex items-center justify-center">
-                        <span className="text-2xl font-bold text-white">{initials}</span>
-                    </div>
+                    {avatar ? <img src={avatar} alt="Avatar" className="w-20 h-20 rounded-full object-cover" />
+                        :
+                        <div className="w-20 h-20 bg-indigo-500 rounded-full flex items-center justify-center">
+                            <span className="text-2xl font-bold text-white">{initials}</span>
+                        </div>
+                    }
                     <div className="flex items-center gap-6">
                         <button
                             className="px-3 py-2 text-sm bg-transparent border border-neutral-400 text-neutral-800 rounded-md font-semibold hover:border-stone-900 hover:bg-stone-900 hover:text-white transition flex items-center gap-2">
                             Change Avatar
                         </button>
-                        <button className="px-3 py-2 text-white rounded-lg text-sm font-medium bg-stone-900 transition">
+                        <button onClick={() => setAvatar(null)}
+                            className="px-3 py-2 text-white rounded-lg text-sm font-medium bg-stone-900 transition">
                             Remove
                         </button>
                     </div>
@@ -70,14 +72,19 @@ const Settings = () => {
                     className="space-y-4"
                     onSubmit={async (e) => {
                         e.preventDefault()
+                        setLoading(true)
 
                         const finalFullName = `${newFirstName} ${newLastName}`.trim()
-                        await updateProfile({
-                          fullName: finalFullName,
-                          email: email,
-                          jobTitle: jobTitle,
-                          bio: bio,
+                        await updateProfile(
+                                user.id,
+                            {
+                                full_name: finalFullName,
+                                avatar_url: avatar,
+                                email: email,
+                                job_title: jobTitle,
+                                bio: bio,
                         })
+                        setLoading(false)
                     }}
                 >
                     <div className="grid grid-cols-2 gap-4">
@@ -95,7 +102,7 @@ const Settings = () => {
                             <input
                                 type="text"
                                 value={newLastName}
-                                onChange={(e)=> setNewLastName(e.target.value)}
+                                onChange={(e) => setNewLastName(e.target.value)}
                                 className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:border-black"
                             />
                         </div>
@@ -146,13 +153,9 @@ const Settings = () => {
 
                     <div className="flex justify-end gap-3 mt-6 pt-6 border-t border-slate-200">
                         <button
-                            className="px-3 py-2 text-sm bg-transparent border border-neutral-400 text-neutral-800 rounded-md font-semibold hover:border-stone-900 hover:bg-stone-900 hover:text-white transition flex items-center gap-2">
-                            Cancel
-                        </button>
-                        <button
                             type="submit"
                             className="px-3 py-2 text-white rounded-lg text-sm font-medium bg-stone-900 transition">
-                                Save Changes
+                            {!loading ? "Save Changes" : "Saving..."}
                         </button>
                     </div>
                 </form>

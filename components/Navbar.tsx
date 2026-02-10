@@ -12,7 +12,9 @@ interface NavbarProps {
 const Navbar = ({fontClass}: NavbarProps) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const {user} = useUser()
+    const { user, loading } = useUser()
+    if (loading) return null
+    const isLoggedIn = !!user?.id;
 
     return (
         <nav
@@ -33,7 +35,7 @@ const Navbar = ({fontClass}: NavbarProps) => {
                                   className="text-slate-600 hover:text-indigo-600 transition">Pricing</Link>
                         </div>
                         <div className="flex items-center space-x-5 min-w-50 justify-end">
-                            {!user ?
+                            {!isLoggedIn ?
                                 (
                                     <>
                                         <Link href="/login" className="text-slate-900 hover:text-indigo-600 px-2 py-1">Log in</Link>
@@ -53,14 +55,18 @@ const Navbar = ({fontClass}: NavbarProps) => {
                 </div>
             </div>
 
-            {/* Mobile Nav Dropdown */}
             {isMenuOpen && (
                 <div className="md:hidden bg-white border-b border-slate-100 p-4 space-y-4">
                     <Link href="/features" className="block text-slate-600">Features</Link>
                     <Link href="/integrations" className="block text-slate-600">Integrations</Link>
-                    <Link href="/login" className="w-full text-left font-medium text-indigo-600">Log in</Link>
-                    <Link href="/register" className="w-full bg-indigo-600 text-white px-5 py-2 rounded-lg">Get
-                        Started</Link>
+                    {!isLoggedIn ? (
+                        <>
+                            <Link href="/login" className="w-full text-left font-medium text-indigo-600">Log in</Link>
+                            <Link href="/register" className="w-full bg-indigo-600 text-white px-5 py-2 rounded-lg">Get Started</Link>
+                        </>
+                    ) : (
+                        <Link href="/dashboard" className="w-full text-left font-medium text-indigo-600">Dashboard</Link>
+                    )}
                 </div>
             )}
         </nav>
