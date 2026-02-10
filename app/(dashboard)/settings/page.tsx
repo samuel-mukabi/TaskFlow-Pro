@@ -10,7 +10,6 @@ import {updateProfile} from "@/utils/supabase/auth";
 const Settings = () => {
     const supabase = createClient()
     const {user} = useUser()
-    const router = useRouter()
     const [fullName, setFullName] = useState<string>("")
     const [email, setEmail] = useState<string>("")
     const [jobTitle, setJobTitle] = useState<string>("")

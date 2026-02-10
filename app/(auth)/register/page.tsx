@@ -11,7 +11,6 @@ import { registerWithEmail, signInWithOAuth } from "@/utils/supabase/auth";
 const RegisterPage = () => {
     const router = useRouter();
 
-    const supabase = createClient();
     const [fullname, setFullname] = useState<string>('')
     const [email, setEmail] = useState<string>('');
     const [jobTitle, setJobTitle] = useState<string>("")
