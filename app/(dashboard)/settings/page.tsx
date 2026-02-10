@@ -4,7 +4,8 @@ import React, { useEffect, useState } from 'react'
 import { useUser } from "@/context/UserContext";
 import {fetchUserProfile, updateProfile} from "@/app/actions/profiles";
 
-const Settings = () => {    const { user } = useUser()
+const Settings = () => {
+    const { user } = useUser()
     const [fullName, setFullName] = useState<string>("")
     const [email, setEmail] = useState<string>("")
     const [jobTitle, setJobTitle] = useState<string>("")

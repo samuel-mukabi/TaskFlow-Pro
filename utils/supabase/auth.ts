@@ -1,5 +1,6 @@
 import { createClient } from './client'
 import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context.shared-runtime'
+import {clearProfileCache} from "@/app/actions/profiles.ts";
 
 const supabase = createClient()
 
@@ -56,10 +57,11 @@ export async function signInWithOAuth(provider: 'github' | 'google' | 'gitlab', 
 }
 
 // Sign out
-export async function signOut(router: AppRouterInstance) {
+export async function signOut(userId: string ,router: AppRouterInstance) {
     const { error } = await supabase.auth.signOut()
     if (error) {
         console.error('Sign-out error:', error.message)
     }
+    await clearProfileCache(userId)
     router.push('/login')
 }

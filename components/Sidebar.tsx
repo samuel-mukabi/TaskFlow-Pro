@@ -13,6 +13,7 @@ const Sidebar = ({ fontClass }: { fontClass?: string }) => {
     // Default to empty strings if the profile is loading or null
     const fullName = profile?.full_name || ""
     const email = profile?.email || ""
+    const avatar = profile?.avatar_url || ""
 
     // Calculate initials safely
     const initials = fullName
@@ -41,15 +42,15 @@ const Sidebar = ({ fontClass }: { fontClass?: string }) => {
                 </ul>
             </nav>
 
-            <section className="absolute bottom-0 w-full px-4 py-4 border-t border-gray-300">
+            <section className="absolute bottom-0 w-full px-4 py-3 border-t border-gray-300">
                 <div className="flex flex-row gap-2 items-center">
                     {/* Placeholder for user avatar and name */}
-                    <div className="w-8 h-8 bg-slate-300 rounded-full flex items-center justify-center text-sm font-medium text-slate-600">
-                        {initials}
-                    </div>
-                    <div className="flex flex-col">
+                        <div className="w-10 h-10 bg-slate-300 rounded-full flex items-center justify-center text-sm font-medium text-slate-600">
+                            {!avatar ? initials : <img src={avatar} alt="" className="rounded-full" />}
+                        </div>
+                    <div className="flex flex-col leading-tight">
                         <p className="text-sm font-extrabold text-black">{fullName}</p>
-                        <p className="text-xs">{email}</p>
+                        <p className="text-[11px]">{email}</p>
                     </div>
                 </div>
             </section>

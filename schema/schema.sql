@@ -21,7 +21,9 @@ create table if not exists public.profiles (
 create table if not exists public.workspaces (
   id uuid default uuid_generate_v4() primary key,
   name text not null,
-  owner_id uuid references public.profiles(id) on delete set null,
+  logo text,
+  url text,
+  owner_id uuid references public.profiles(id) on delete set null unique,
   created_at timestamp with time zone default timezone('utc'::text, now()) not null,
   updated_at timestamp with time zone default timezone('utc'::text, now()) not null
 );
@@ -102,6 +104,8 @@ create policy "Allow logged-in read access" on public.profiles for select using 
 create policy "Users can update own profile" on public.profiles for update using (auth.uid() = id);
 
 create policy "Allow logged-in read access" on public.workspaces for select using (auth.role() = 'authenticated');
+create policy "Users can update own workspace" on public.workspaces for update using (auth.uid() = owner_id);
+create policy "Users can insert own workspace" on public.workspaces for insert with check (auth.uid() = owner_id);
 create policy "Allow logged-in read access" on public.projects for select using (auth.role() = 'authenticated');
 create policy "Allow logged-in read access" on public.tasks for select using (auth.role() = 'authenticated');
 create policy "Allow logged-in read access" on public.activities for select using (auth.role() = 'authenticated');

@@ -25,3 +25,13 @@ export interface ProjectCardProps {
     svg: string
     projectColor?: string
 }
+
+export interface WorkspaceDetails {
+    id?: string;
+    name: string;
+    url: string;
+    logo?: string | null;
+    owner_id: string;
+    created_at?: string;
+    updated_at?: string;
+}

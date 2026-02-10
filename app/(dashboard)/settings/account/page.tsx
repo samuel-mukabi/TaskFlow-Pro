@@ -9,6 +9,7 @@ import { useUser } from "@/context/UserContext";
 
 export default function AccountSettings() {
     const { user } = useUser()
+    const userId = user?.id || ""
     const router = useRouter();
 
     const [email, setEmail] = useState("")
@@ -18,7 +19,7 @@ export default function AccountSettings() {
         const fetchUser = async () => {
             if (!user) return
 
-            const profile = await fetchUserProfile(user.id)
+            const profile = await fetchUserProfile(userId)
             if (profile) {
                 const email = profile.email || ""
 
@@ -132,7 +133,7 @@ export default function AccountSettings() {
                         </div>
                     </div>
                     <button
-                        onClick={() => signOut(router)}
+                        onClick={() => signOut(userId, router)}
                         className="px-3 py-2 text-sm bg-transparent border border-neutral-400 text-neutral-800 rounded-md font-semibold hover:border-stone-900 hover:bg-stone-900 hover:text-white transition flex items-center gap-2">
                         Sign Out
                     </button>
