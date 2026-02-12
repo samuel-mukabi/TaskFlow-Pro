@@ -2,12 +2,12 @@
 
 import { redis } from "@/lib/redis.ts";
 import { createClient } from "@/utils/supabase/server.ts";
-import { WorkspaceDetails } from "@/types";
+import { Workspace } from "@/types";
 
-export async function createWorkspace(userId: string, workspaceDetails: {}): Promise<WorkspaceDetails | null> {
+export async function createWorkspace(userId: string, workspaceDetails: {}): Promise<Workspace | null> {
     const supabase = await createClient()
 
-    const insertData = {  owner_id: userId, ...workspaceDetails, }
+    const insertData = { owner_id: userId, ...workspaceDetails, }
 
     const { data, error } = await supabase
         .from('workspaces')
@@ -20,15 +20,15 @@ export async function createWorkspace(userId: string, workspaceDetails: {}): Pro
         return null
     }
 
-    return data as WorkspaceDetails
+    return data as Workspace
 }
 
-export async function fetchWorkspaceProfile(userId: string): Promise<WorkspaceDetails | null> {
+export async function fetchWorkspaceProfile(userId: string): Promise<Workspace | null> {
     const cacheKey = `workspace:details:${userId}`
 
     try {
         // 1. Try to get from Redis
-        const cached = await redis.get<WorkspaceDetails>(cacheKey)
+        const cached = await redis.get<Workspace>(cacheKey)
         if (cached) {
             return cached
         }
@@ -55,10 +55,10 @@ export async function fetchWorkspaceProfile(userId: string): Promise<WorkspaceDe
         console.error("Redis set error:", error)
     }
 
-    return data as WorkspaceDetails
+    return data as Workspace
 }
 
-export async function updateWorkspace(userId: string, workspaceDetails: Partial<WorkspaceDetails>) {
+export async function updateWorkspace(userId: string, workspaceDetails: Partial<Workspace>) {
     const supabase = await createClient()
 
     // Destructure to ensure we don't accidentally update id or owner_id
@@ -90,4 +90,47 @@ export async function updateWorkspace(userId: string, workspaceDetails: Partial<
     }
 
     return data
+}
+
+export async function fetchWorkspaceMembers(workspaceId: string) {
+    const cacheKey = `workspace:members:${workspaceId}`
+
+    try {
+        const cached = await redis.get<any[]>(cacheKey)
+        if (cached) {
+            console.log("Returning cached members")
+            return cached
+        }
+    } catch (error) {
+        console.error("Redis fetch error:", error)
+    }
+
+    const supabase = await createClient()
+    const { data, error } = await supabase
+        .from('workspace_members')
+        .select('*, profiles:profile_id(full_name, email, avatar_url)')
+        .eq('workspace_id', workspaceId);
+
+    if (error) {
+        console.error("Supabase fetch members error:", error)
+        return []
+    }
+
+    const members = data.map((item: any) => ({
+        id: item.profiles.id,
+        full_name: item.profiles.full_name,
+        email: item.profiles.email,
+        avatar_url: item.profiles.avatar_url,
+        job_title: item.profiles.job_title,
+        role: item.role,
+        joined_at: item.joined_at
+    }))
+
+    try {
+        await redis.set(cacheKey, members, { ex: 3600 })
+    } catch (error) {
+        console.error("Redis set error:", error)
+    }
+
+    return members
 }

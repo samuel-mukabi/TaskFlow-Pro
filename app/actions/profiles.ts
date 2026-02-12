@@ -18,7 +18,6 @@ export async function fetchUserProfile(userId: string): Promise<UserProfile | nu
     } catch (error) {
         console.error("Redis fetch error:", error)
     }
-    console.log(`Fetching user profile: ${userId}`)
 
     // 2. Cache miss: Fetch from Supabase
     const supabase = await createClient()

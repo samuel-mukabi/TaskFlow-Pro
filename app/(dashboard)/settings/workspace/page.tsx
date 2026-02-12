@@ -3,7 +3,7 @@
 import { Camera } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { createWorkspace, fetchWorkspaceProfile, updateWorkspace } from "@/app/actions/workspace.ts";
-import { useUser } from "@/context/UserContext.tsx";
+import { useUserProfile } from "@/hooks/useUserProfile";
 
 
 export default function WorkspaceSettings() {
@@ -14,27 +14,27 @@ export default function WorkspaceSettings() {
     const [isSaving, setIsSaving] = useState(false)
     const [message, setMessage] = useState<{ type: 'success' | 'error', text: string } | null>(null)
 
-    const { user } = useUser();
+    const {loading: profileLoading, user } = useUserProfile();
     const userId = user?.id || ""
 
     const theWorkspaceUrl = newName.split(" ").join("-").toLowerCase()
 
     useEffect(() => {
         const fetchWorkspace = async () => {
-            if (!user) return
-            const profile = await fetchWorkspaceProfile(userId)
-            if (!profile) return null
+            if (profileLoading || !user) return
 
-            if (profile) {
-                const name = profile.name || ""
-                const logoUrl = profile.logo || ""
+            // We can still use fetchWorkspaceProfile to get the full Workspace object (name, logo, etc.)
+            // But we can benefit from the fact that useUserProfile might have already warmed the cache
+            // or we could eventually extend UserProfile to include more workspace info.
+            // For now, replacing useUser with useUserProfile keeps things consistent.
+            const workspaceData = await fetchWorkspaceProfile(userId)
+            if (!workspaceData) return
 
-                setNewName(name)
-                setNewLogoUrl(logoUrl)
-            }
+            setNewName(workspaceData.name || "")
+            setNewLogoUrl(workspaceData.logo || "")
         }
         fetchWorkspace()
-    }, [user, userId]);
+    }, [user, userId, profileLoading]);
 
 
 
