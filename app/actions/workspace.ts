@@ -1,7 +1,7 @@
 'use server'
 
-import { redis } from "@/lib/redis.ts";
-import { createClient } from "@/utils/supabase/server.ts";
+import { redis } from "@/caching/redis.ts";
+import { createClient } from "@/database/supabase/server.ts";
 import { Workspace } from "@/types";
 
 export async function createWorkspace(userId: string, workspaceDetails: {}): Promise<Workspace | null> {
@@ -23,39 +23,10 @@ export async function createWorkspace(userId: string, workspaceDetails: {}): Pro
     return data as Workspace
 }
 
+import { getTieredWorkspaceProfile, getTieredWorkspaceMembers } from "@/lib/data-services/workspace-service";
+
 export async function fetchWorkspaceProfile(userId: string): Promise<Workspace | null> {
-    const cacheKey = `workspace:details:${userId}`
-
-    try {
-        // 1. Try to get from Redis
-        const cached = await redis.get<Workspace>(cacheKey)
-        if (cached) {
-            return cached
-        }
-    } catch (error) {
-        console.error("Redis fetch error:", error)
-    }
-    //Get workspace details from database
-    const supabase = await createClient()
-    const { data, error } = await supabase
-        .from('workspaces')
-        .select('*')
-        .eq("owner_id", userId)
-        .single()
-
-    if (error || !data) {
-        console.error("Supabase fetch error:", error?.message)
-        return null
-    }
-
-    // 3. Save to Redis
-    try {
-        await redis.set(cacheKey, data, { ex: 600 })
-    } catch (error) {
-        console.error("Redis set error:", error)
-    }
-
-    return data as Workspace
+    return getTieredWorkspaceProfile(userId);
 }
 
 export async function updateWorkspace(userId: string, workspaceDetails: Partial<Workspace>) {
@@ -92,45 +63,7 @@ export async function updateWorkspace(userId: string, workspaceDetails: Partial<
     return data
 }
 
-export async function fetchWorkspaceMembers(workspaceId: string) {
-    const cacheKey = `workspace:members:${workspaceId}`
-
-    try {
-        const cached = await redis.get<any[]>(cacheKey)
-        if (cached) {
-            console.log("Returning cached members")
-            return cached
-        }
-    } catch (error) {
-        console.error("Redis fetch error:", error)
-    }
-
-    const supabase = await createClient()
-    const { data, error } = await supabase
-        .from('workspace_members')
-        .select('*, profiles:profile_id(full_name, email, avatar_url)')
-        .eq('workspace_id', workspaceId);
-
-    if (error) {
-        console.error("Supabase fetch members error:", error)
-        return []
-    }
-
-    const members = data.map((item: any) => ({
-        id: item.profiles.id,
-        full_name: item.profiles.full_name,
-        email: item.profiles.email,
-        avatar_url: item.profiles.avatar_url,
-        job_title: item.profiles.job_title,
-        role: item.role,
-        joined_at: item.joined_at
-    }))
-
-    try {
-        await redis.set(cacheKey, members, { ex: 3600 })
-    } catch (error) {
-        console.error("Redis set error:", error)
-    }
-
-    return members
+export async function fetchWorkspaceMembers(workspaceId: string | null | undefined) {
+    if (!workspaceId) return [];
+    return getTieredWorkspaceMembers(workspaceId);
 }

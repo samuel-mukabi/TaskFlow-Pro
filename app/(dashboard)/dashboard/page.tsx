@@ -3,7 +3,6 @@
 import React, {useEffect} from 'react'
 import {useRouter} from 'next/navigation'
 import {useUserProfile} from "@/hooks/useUserProfile"
-import StatsGrid from '@/components/dashboard/StatsGrid'
 import RecentActivity from '@/components/dashboard/RecentActivity'
 import UpcomingDeadlines from '@/components/dashboard/UpcomingDeadlines'
 import ProjectProgress from '@/components/dashboard/ProjectProgress'
@@ -29,7 +28,6 @@ const Dashboard = () => {
             </div>
 
             {/* Stats Grid */}
-            <StatsGrid/>
 
             {/* Main Content Grid */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

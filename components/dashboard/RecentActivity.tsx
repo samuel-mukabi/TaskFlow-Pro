@@ -100,7 +100,7 @@ const RecentActivity = () => {
                             </p>
                             <p className="text-xs text-slate-500 mt-1">{activity.time} · {activity.project}</p>
                         </div>
-                        <div className={`w-8 h-8 ${activity.iconBg} rounded-lg flex items-center justify-center shrink-0`}>
+                        <div className={`w-10 h-10 rounded-lg flex items-center justify-center shrink-0`}>
                             {activity.statusIcon}
                         </div>
                     </div>

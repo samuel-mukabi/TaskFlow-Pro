@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Github, Mail, Lock } from 'lucide-react';
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { logInWithEmail, signInWithOAuth } from "@/utils/supabase/auth";
+import { logInWithEmail, signInWithOAuth } from "@/database/supabase/auth";
 
 const LoginPage = () => {
     const router = useRouter();

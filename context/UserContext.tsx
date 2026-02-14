@@ -1,7 +1,7 @@
 'use client'
 
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react'
-import { createClient } from "@/utils/supabase/client";
+import { createClient } from "@/database/supabase/client";
 
 const UserContext = createContext<{ user: any; session: any, loading: boolean } | null>(null)
 

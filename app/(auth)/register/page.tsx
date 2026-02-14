@@ -2,9 +2,8 @@
 
 import React, { useState } from 'react';
 import { Zap, Github, Mail, Lock, User, BriefcaseBusiness } from 'lucide-react';
-import { createClient } from "@/utils/supabase/client";
 import { useRouter } from "next/navigation";
-import { registerWithEmail, signInWithOAuth } from "@/utils/supabase/auth";
+import { registerWithEmail, signInWithOAuth } from "@/database/supabase/auth";
 
 
 

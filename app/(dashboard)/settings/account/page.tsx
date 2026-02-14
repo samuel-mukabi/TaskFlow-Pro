@@ -3,7 +3,7 @@
 import { Mail, Globe, Download, Trash2, LogOut } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { signOut } from "@/utils/supabase/auth";
+import { signOut } from "@/database/supabase/auth";
 import {fetchUserProfile, updateProfile} from "@/app/actions/profiles";
 import { useUser } from "@/context/UserContext";
 

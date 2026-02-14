@@ -1,61 +1,89 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import {useUserProfile} from "@/hooks/useUserProfile.ts";
+import {Project} from "@/types";
+import {fetchProjects} from "@/app/actions/projects.ts";
 
 const ProjectProgress = () => {
+    const {profile, loading} = useUserProfile();
+    const [projects, setProjects] = useState<Project[]>([]);
+    const [isLoading, setIsLoading] = useState(false);
 
-    const projects = [
-        {
-            name: "Website Redesign",
-            tasks: 12,
-            members: 4,
-            progress: 75,
-            color: "indigo"
-        },
-        {
-            name: "Mobile App Development",
-            tasks: 24,
-            members: 6,
-            progress: 45,
-            color: "purple"
-        },
-        {
-            name: "Backend Services",
-            tasks: 18,
-            members: 5,
-            progress: 90,
-            color: "green"
-        }
-    ]
+    useEffect(() => {
+        const getProjects = async () => {
+            if (loading) {
+                setIsLoading(true);
+                return;
+            }
+
+            if (!profile?.workspace_id) {
+                setProjects([]);
+                setIsLoading(false);
+                return;
+            }
+            setIsLoading(true);
+            setProjects([]);
+            try {
+                const data = await fetchProjects(profile.workspace_id);
+                setProjects(data || []);
+            } catch (error) {
+                console.error("Error fetching projects for dashboard:", error);
+            } finally {
+                setIsLoading(false);
+            }
+
+        };
+        getProjects();
+    }, [profile, loading]);
+
+
+    const activeProjects = projects.filter(p => p.status === 'Active').slice(0, 5);
+
+    if (!isLoading && activeProjects.length === 0) {
+        return (
+            <div className="mt-6 bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                <h2 className="text-xl font-bold text-slate-900 mb-4">Active Projects Progress</h2>
+                <div className="text-center text-slate-500 py-6">
+                    No active projects yet.
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div className="mt-6 bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
             <h2 className="text-xl font-bold text-slate-900 mb-6">Active Projects Progress</h2>
 
             <div className="space-y-6">
-
-
-                {projects.map((project, index) => (
-                    <div key={index}>
-                        <div className="flex items-center justify-between mb-2">
-                            <div className="flex items-center gap-3">
-                                <div className={`w-10 h-10 bg-${project.color}-100 rounded-lg flex items-center justify-center`}>
-                                    <svg className={`w-5 h-5 text-${project.color}-600`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
-                                    </svg>
+                {isLoading ? (
+                        <div
+                            className="mt-6 bg-white border border-slate-200 rounded-xl p-6 shadow-sm flex items-center justify-center min-h-44">
+                            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600"></div>
+                        </div>
+                    ) :
+                        activeProjects.map((project) => (
+                            <div key={project.id}>
+                                <div className="flex items-center justify-between mb-2">
+                                    <div className="flex items-center gap-3">
+                                        <div>
+                                            <h3 className="font-semibold text-slate-900">{project.title}</h3>
+                                            <p className="text-xs text-slate-600">{project.tasks_count} tasks
+                                                · {project.project_members?.length || 0} members</p>
+                                        </div>
+                                    </div>
+                                    <span className="text-sm font-semibold"
+                                          style={{color: project.color}}>{project.progress}%</span>
                                 </div>
-                                <div>
-                                    <h3 className="font-semibold text-slate-900">{project.name}</h3>
-                                    <p className="text-xs text-slate-600">{project.tasks} tasks · {project.members} members</p>
+                                <div className="w-full bg-slate-200 rounded-full h-2">
+                                    <div
+                                        className="h-2 rounded-full transition-all duration-500"
+                                        style={{
+                                            width: `${project.progress}%`,
+                                            backgroundColor: project.color
+                                        }}
+                                    ></div>
                                 </div>
                             </div>
-                            <span className={`text-sm font-semibold text-${project.color}-600`}>{project.progress}%</span>
-                        </div>
-                        <div className="w-full bg-slate-200 rounded-full h-2">
-                            <div className={`bg-${project.color}-600 h-2 rounded-full`} style={{ width: `${project.progress}%` }}></div>
-                        </div>
-                    </div>
-                ))}
-
-
+                        ))}
             </div>
         </div>
     );
