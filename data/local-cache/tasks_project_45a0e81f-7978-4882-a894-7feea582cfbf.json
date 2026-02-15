@@ -1,0 +1,110 @@
+[
+  {
+    "id": "486adb0a-4b39-43b7-a009-c5785faf3fb2",
+    "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+    "title": "Complete safety compliance checklist",
+    "description": "Verify all garage and transport items meet FIA standards.",
+    "status": "Completed",
+    "priority": "Medium",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2025-05-28T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "abf11f7f-28df-46e9-ac46-bfd580e7bfd1",
+    "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+    "title": "Track gearbox lifecycle #195",
+    "description": "Record gearbox usage hours and schedule preventive replacements. (auto-generated task #195)",
+    "status": "In Review",
+    "priority": "Low",
+    "assignee_id": "44733b98-192e-472f-9b89-a660c4b62e9f",
+    "due_date": "2026-02-26T00:27:09.983655+00:00",
+    "created_at": "2026-02-10T21:12:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "16b71705-f664-4934-bdee-f54eaa131a27",
+    "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+    "title": "Consolidate testing data into warehouse #112",
+    "description": "ETL latest test session data into analytics warehouse. (auto-generated task #112)",
+    "status": "Completed",
+    "priority": "High",
+    "assignee_id": "4f295f6c-3af4-4713-afc8-9814febca450",
+    "due_date": "2026-03-05T00:27:09.983655+00:00",
+    "created_at": "2026-02-10T22:35:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "4416649c-b348-4e86-a229-5e1cba6f42e9",
+    "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+    "title": "Inspect brake ducts and cooling #29",
+    "description": "Measure temperatures and adjust ducting for cooling balance. (auto-generated task #29)",
+    "status": "To Do",
+    "priority": "Medium",
+    "assignee_id": "50afdcb8-37c8-4e56-ab56-6bd151bb52e0",
+    "due_date": "2026-03-12T00:27:09.983655+00:00",
+    "created_at": "2026-02-10T23:58:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "7da0fd33-d412-43e8-9890-b51d1a407b57",
+    "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+    "title": "Optimize tyre stint allocations for Monza",
+    "description": "Analyze degradation curves and propose optimal tyre stint lengths.",
+    "status": "In Progress",
+    "priority": "Medium",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2025-04-05T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "8e5cc964-3d3c-4925-a64b-1d6c87b3992f",
+    "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+    "title": "Update simulator track libraries",
+    "description": "Add latest grip maps and track evolution parameters.",
+    "status": "To Do",
+    "priority": "Low",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2025-08-30T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "deacaae1-1c7e-46e4-8602-4efcac127daf",
+    "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+    "title": "Run hybrid system health check",
+    "description": "Execute diagnostics and log any degradation events.",
+    "status": "In Progress",
+    "priority": "High",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2025-06-02T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "ec0ff1e6-bc34-4691-a1bb-02affe002844",
+    "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+    "title": "Improve pit lane ergonomics",
+    "description": "Rearrange tooling and practice flow to shave seconds per stop.",
+    "status": "Completed",
+    "priority": "High",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2025-04-13T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "f0ea2971-bb55-400c-a4da-209c0be2d675",
+    "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+    "title": "Consolidate testing data into warehouse",
+    "description": "ETL latest test session data into analytics warehouse.",
+    "status": "In Progress",
+    "priority": "Medium",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2026-02-20T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  }
+]

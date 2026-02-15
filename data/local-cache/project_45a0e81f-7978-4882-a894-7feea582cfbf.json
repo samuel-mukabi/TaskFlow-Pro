@@ -1,0 +1,136 @@
+{
+  "id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+  "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+  "title": "McLaren MasterCard Formula One Team — Brake Cooling Management",
+  "description": "Develop adaptive brake cooling strategies to maintain optimal temperatures across tracks.",
+  "status": "Planning",
+  "priority": "Low",
+  "start_date": "2025-07-04T00:00:00+00:00",
+  "end_date": "2025-04-16T00:00:00+00:00",
+  "color": "#EC4899",
+  "icon": "46.245.119.208",
+  "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+  "created_at": "2026-02-10T22:23:21.838466+00:00",
+  "updated_at": "2026-02-11T02:08:29.846347+00:00",
+  "tasks": [
+    {
+      "id": "486adb0a-4b39-43b7-a009-c5785faf3fb2",
+      "title": "Complete safety compliance checklist",
+      "status": "Completed",
+      "due_date": "2025-05-28T00:00:00+00:00",
+      "priority": "Medium",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "Verify all garage and transport items meet FIA standards."
+    },
+    {
+      "id": "abf11f7f-28df-46e9-ac46-bfd580e7bfd1",
+      "title": "Track gearbox lifecycle #195",
+      "status": "In Review",
+      "due_date": "2026-02-26T00:27:09.983655+00:00",
+      "priority": "Low",
+      "created_at": "2026-02-10T21:12:09.983655+00:00",
+      "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "44733b98-192e-472f-9b89-a660c4b62e9f",
+      "description": "Record gearbox usage hours and schedule preventive replacements. (auto-generated task #195)"
+    },
+    {
+      "id": "16b71705-f664-4934-bdee-f54eaa131a27",
+      "title": "Consolidate testing data into warehouse #112",
+      "status": "Completed",
+      "due_date": "2026-03-05T00:27:09.983655+00:00",
+      "priority": "High",
+      "created_at": "2026-02-10T22:35:09.983655+00:00",
+      "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "4f295f6c-3af4-4713-afc8-9814febca450",
+      "description": "ETL latest test session data into analytics warehouse. (auto-generated task #112)"
+    },
+    {
+      "id": "4416649c-b348-4e86-a229-5e1cba6f42e9",
+      "title": "Inspect brake ducts and cooling #29",
+      "status": "To Do",
+      "due_date": "2026-03-12T00:27:09.983655+00:00",
+      "priority": "Medium",
+      "created_at": "2026-02-10T23:58:09.983655+00:00",
+      "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "50afdcb8-37c8-4e56-ab56-6bd151bb52e0",
+      "description": "Measure temperatures and adjust ducting for cooling balance. (auto-generated task #29)"
+    },
+    {
+      "id": "7da0fd33-d412-43e8-9890-b51d1a407b57",
+      "title": "Optimize tyre stint allocations for Monza",
+      "status": "In Progress",
+      "due_date": "2025-04-05T00:00:00+00:00",
+      "priority": "Medium",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "Analyze degradation curves and propose optimal tyre stint lengths."
+    },
+    {
+      "id": "8e5cc964-3d3c-4925-a64b-1d6c87b3992f",
+      "title": "Update simulator track libraries",
+      "status": "To Do",
+      "due_date": "2025-08-30T00:00:00+00:00",
+      "priority": "Low",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "Add latest grip maps and track evolution parameters."
+    },
+    {
+      "id": "deacaae1-1c7e-46e4-8602-4efcac127daf",
+      "title": "Run hybrid system health check",
+      "status": "In Progress",
+      "due_date": "2025-06-02T00:00:00+00:00",
+      "priority": "High",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "Execute diagnostics and log any degradation events."
+    },
+    {
+      "id": "ec0ff1e6-bc34-4691-a1bb-02affe002844",
+      "title": "Improve pit lane ergonomics",
+      "status": "Completed",
+      "due_date": "2025-04-13T00:00:00+00:00",
+      "priority": "High",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "Rearrange tooling and practice flow to shave seconds per stop."
+    },
+    {
+      "id": "f0ea2971-bb55-400c-a4da-209c0be2d675",
+      "title": "Consolidate testing data into warehouse",
+      "status": "In Progress",
+      "due_date": "2026-02-20T00:00:00+00:00",
+      "priority": "Medium",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "ETL latest test session data into analytics warehouse."
+    }
+  ],
+  "project_members": [
+    {
+      "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "full_name": "Samuel Mukabi",
+      "email": "mukamau0@gmail.com",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+      "job_title": "Software Engineer"
+    }
+  ],
+  "tasks_count": 9,
+  "progress": 50
+}

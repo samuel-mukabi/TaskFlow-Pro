@@ -1,0 +1,82 @@
+[
+  {
+    "id": "50afdcb8-37c8-4e56-ab56-6bd151bb52e0",
+    "full_name": "Pavel Ivanov",
+    "email": "pavel.ivanov@yahoo.com",
+    "avatar_url": "https://ui-avatars.com/api/?name=Pavel+Ivanov&background=random&rounded=true&size=128",
+    "job_title": "Performance Engineer",
+    "status": "offline",
+    "department": "Performance",
+    "role": "Engineer"
+  },
+  {
+    "id": "1ac83b85-44b0-4845-8e35-1573d1ce04af",
+    "full_name": "Santiago Morales",
+    "email": "santiago.mor@yahoo.com",
+    "avatar_url": "https://ui-avatars.com/api/?name=Santiago+Morales&background=random&rounded=true&size=128",
+    "job_title": "Car Designer",
+    "status": "offline",
+    "department": "Design",
+    "role": "Lead"
+  },
+  {
+    "id": "98fda457-79dc-49a0-b357-307643778ff6",
+    "full_name": "Liam O'Connor",
+    "email": "liam.oconnor@outlook.com",
+    "avatar_url": "https://ui-avatars.com/api/?name=Liam+O'Connor&background=random&rounded=true&size=128",
+    "job_title": "Race Engineer",
+    "status": "away",
+    "department": "Vehicle Dynamics",
+    "role": "Senior"
+  },
+  {
+    "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "full_name": "Samuel Mukabi",
+    "email": "mukamau0@gmail.com",
+    "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+    "job_title": "Software Engineer",
+    "status": "Active",
+    "department": null,
+    "role": "Member"
+  },
+  {
+    "id": "6d5892d3-2bbd-434a-a84a-1cbce947abc1",
+    "full_name": "Hassan Ali",
+    "email": "hassan.ali@outlook.com",
+    "avatar_url": "https://ui-avatars.com/api/?name=Hassan+Ali&background=random&rounded=true&size=128",
+    "job_title": "Telemetry Engineer",
+    "status": "away",
+    "department": "Telemetry",
+    "role": "Engineer"
+  },
+  {
+    "id": "44733b98-192e-472f-9b89-a660c4b62e9f",
+    "full_name": "Marta Nowak",
+    "email": "marta.nowak@yahoo.com",
+    "avatar_url": "https://ui-avatars.com/api/?name=Marta+Nowak&background=random&rounded=true&size=128",
+    "job_title": "Tyre Engineer",
+    "status": "away",
+    "department": "Tyres",
+    "role": "Engineer"
+  },
+  {
+    "id": "4f295f6c-3af4-4713-afc8-9814febca450",
+    "full_name": "Diego Fernández",
+    "email": "diego.fernnd@outlook.com",
+    "avatar_url": "https://ui-avatars.com/api/?name=Diego+Fernández&background=random&rounded=true&size=128",
+    "job_title": "Aero Designer",
+    "status": "active",
+    "department": "Aerodynamics",
+    "role": "Lead"
+  },
+  {
+    "id": "7012b93e-161f-4d7f-837f-5722ec080b10",
+    "full_name": "Noor Al-Farsi",
+    "email": "noor.al-fars@gmail.com",
+    "avatar_url": "https://ui-avatars.com/api/?name=Noor+Al-Farsi&background=random&rounded=true&size=128",
+    "job_title": "Fuel Systems Engineer",
+    "status": "away",
+    "department": "Fuel",
+    "role": "Engineer"
+  }
+]

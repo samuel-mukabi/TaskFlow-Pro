@@ -1,0 +1,38 @@
+[
+  {
+    "id": "c5f92fe6-60fa-45cc-a4d3-862ab42f682e",
+    "project_id": "c0c69502-72d8-44a2-9fcf-3ef959eaa958",
+    "title": "Deploy live strategy dashboard widgets #236",
+    "description": "Add stint prediction and tyre temp heatmap widgets. (auto-generated task #236)",
+    "status": "In Progress",
+    "priority": "Medium",
+    "assignee_id": "4217a54a-549f-4903-97e8-1df4d6ccc8bb",
+    "due_date": "2026-03-09T00:27:09.983655+00:00",
+    "created_at": "2026-02-10T20:31:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "14168acb-5cd8-4c4b-a950-f06561829a27",
+    "project_id": "c0c69502-72d8-44a2-9fcf-3ef959eaa958",
+    "title": "Catalog baseline car setups #153",
+    "description": "Create canonical setups per track with notes and telemetry links. (auto-generated task #153)",
+    "status": "In Progress",
+    "priority": "Medium",
+    "assignee_id": "44733b98-192e-472f-9b89-a660c4b62e9f",
+    "due_date": "2026-02-14T00:27:09.983655+00:00",
+    "created_at": "2026-02-10T21:54:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "e19ae4e9-b08d-472f-a374-cbbb58d58e0b",
+    "project_id": "c0c69502-72d8-44a2-9fcf-3ef959eaa958",
+    "title": "Plan sponsor hospitality at Silverstone #70",
+    "description": "Coordinate activations, guest lists, and timing. (auto-generated task #70)",
+    "status": "To Do",
+    "priority": "High",
+    "assignee_id": "4f295f6c-3af4-4713-afc8-9814febca450",
+    "due_date": "2026-02-21T00:27:09.983655+00:00",
+    "created_at": "2026-02-10T23:17:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  }
+]

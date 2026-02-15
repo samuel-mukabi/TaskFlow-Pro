@@ -1,0 +1,74 @@
+[
+  {
+    "id": "500b676f-7816-434f-b491-b5e52716f2ec",
+    "project_id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+    "title": "Plan sponsor hospitality at Silverstone #170",
+    "description": "Coordinate activations, guest lists, and timing. (auto-generated task #170)",
+    "status": "In Progress",
+    "priority": "Low",
+    "assignee_id": "10aa4303-db76-4d91-8cb9-255c64834b4d",
+    "due_date": "2026-03-03T00:27:09.983655+00:00",
+    "created_at": "2026-02-10T21:37:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "b2f0dd5f-8812-4a6d-84bc-0106d7cf3676",
+    "project_id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+    "title": "Improve pit lane ergonomics #87",
+    "description": "Rearrange tooling and practice flow to shave seconds per stop. (auto-generated task #87)",
+    "status": "In Review",
+    "priority": "Medium",
+    "assignee_id": "1ac83b85-44b0-4845-8e35-1573d1ce04af",
+    "due_date": "2026-03-10T00:27:09.983655+00:00",
+    "created_at": "2026-02-10T23:00:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "90f1833e-8aa3-4e06-9264-68127f7cf228",
+    "project_id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+    "title": "Validate rear wing revision in CFD #4",
+    "description": "Run CFD comparisons and summarize downforce/drag changes. (auto-generated task #4)",
+    "status": "In Progress",
+    "priority": "Medium",
+    "assignee_id": "27fe9213-7276-4e9a-b836-13648b751f1c",
+    "due_date": "2026-02-15T00:27:09.983655+00:00",
+    "created_at": "2026-02-11T00:23:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "5ed43efc-1056-4aaa-b4d5-5d3a7f73d571",
+    "project_id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+    "title": "Driver performance debrief",
+    "description": "Compile key telemetry metrics and feedback for driver coaching.",
+    "status": "In Review",
+    "priority": "Low",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2025-12-18T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "61f6bde4-a1fb-4645-af4a-84d472603d68",
+    "project_id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+    "title": "Update simulator track libraries",
+    "description": "Add latest grip maps and track evolution parameters.",
+    "status": "In Progress",
+    "priority": "Low",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2025-09-10T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "94acf68b-ddde-421d-a803-b20d62037a0e",
+    "project_id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+    "title": "Consolidate testing data into warehouse",
+    "description": "ETL latest test session data into analytics warehouse.",
+    "status": "In Progress",
+    "priority": "High",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2025-10-14T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  }
+]

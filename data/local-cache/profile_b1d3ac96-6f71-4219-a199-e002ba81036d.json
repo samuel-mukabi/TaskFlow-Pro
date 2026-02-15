@@ -1,0 +1,14 @@
+{
+  "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+  "email": "mukamau0@gmail.com",
+  "full_name": "Samuel Mukabi",
+  "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+  "job_title": "Software Engineer",
+  "bio": "I am creating this website so as to improve on my Next.js skills as well as database structuring, Redis use, website best practises and much more.",
+  "role": "Member",
+  "department": null,
+  "status": "Active",
+  "created_at": "2026-02-10T04:18:49.54102+00:00",
+  "updated_at": "2026-02-11T14:16:40.198808+00:00",
+  "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d"
+}

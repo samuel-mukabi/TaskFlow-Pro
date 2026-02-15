@@ -1,0 +1,56 @@
+{
+  "id": "5447ec67-a26a-4ddc-bc61-b621806e1ad5",
+  "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+  "title": "McLaren MasterCard Formula One Team — Custom F1 Project 22",
+  "description": "Custom F1 project generated for this workspace; please update specifics.",
+  "status": "Planning",
+  "priority": "High",
+  "start_date": "2021-03-05T17:22:35+00:00",
+  "end_date": "2021-09-25T08:19:03+00:00",
+  "color": "#22C55E",
+  "icon": null,
+  "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+  "created_at": "2026-02-10T23:57:32.565022+00:00",
+  "updated_at": "2026-02-13T06:00:10.76701+00:00",
+  "tasks": [
+    {
+      "id": "b8711d80-d081-4e08-b25e-cb346dbe2696",
+      "title": "Reduce telemetry ingestion latency #202",
+      "status": "In Progress",
+      "due_date": "2026-03-05T00:27:09.983655+00:00",
+      "priority": "Medium",
+      "created_at": "2026-02-10T21:05:09.983655+00:00",
+      "project_id": "5447ec67-a26a-4ddc-bc61-b621806e1ad5",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "98fda457-79dc-49a0-b357-307643778ff6",
+      "description": "Refactor ingestion pipeline to lower end-to-end latency under 200ms. (auto-generated task #202)"
+    },
+    {
+      "id": "7a8f2122-a094-45f3-a9c8-e83fedc804a7",
+      "title": "Generate sponsor exposure report #119",
+      "status": "To Do",
+      "due_date": "2026-03-12T00:27:09.983655+00:00",
+      "priority": "High",
+      "created_at": "2026-02-10T22:28:09.983655+00:00",
+      "project_id": "5447ec67-a26a-4ddc-bc61-b621806e1ad5",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "a236a40b-af28-49f2-9efa-24809c1d8374",
+      "description": "Calculate TV and on-site impressions for last 3 races. (auto-generated task #119)"
+    },
+    {
+      "id": "7c45afba-b28b-4d4b-bcfa-2b7556dff97b",
+      "title": "Deploy live strategy dashboard widgets #36",
+      "status": "Completed",
+      "due_date": "2026-02-17T00:27:09.983655+00:00",
+      "priority": "Medium",
+      "created_at": "2026-02-10T23:51:09.983655+00:00",
+      "project_id": "5447ec67-a26a-4ddc-bc61-b621806e1ad5",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "a637309b-2d52-4b20-a8b1-c7610bb46980",
+      "description": "Add stint prediction and tyre temp heatmap widgets. (auto-generated task #36)"
+    }
+  ],
+  "project_members": [],
+  "tasks_count": 3,
+  "progress": 42
+}

@@ -1,0 +1,136 @@
+{
+  "id": "2330cf00-f14f-4e30-9d5d-97da35c0ef77",
+  "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+  "title": "McLaren MasterCard Formula One Team — Fuel Consumption Modeling",
+  "description": "Build predictive models for fuel usage to optimize stint lengths and pit stop timing.",
+  "status": "Planning",
+  "priority": "High",
+  "start_date": "2025-12-20T00:00:00+00:00",
+  "end_date": "2025-11-26T00:00:00+00:00",
+  "color": "#8B5CF6",
+  "icon": "194.204.190.69",
+  "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+  "created_at": "2026-02-10T22:23:21.838466+00:00",
+  "updated_at": "2026-02-11T02:08:29.846347+00:00",
+  "tasks": [
+    {
+      "id": "971b5a27-ed81-4ce0-b04a-cbf458105406",
+      "title": "Align simulator to on-track behavior #178",
+      "status": "Completed",
+      "due_date": "2026-03-11T00:27:09.983655+00:00",
+      "priority": "Medium",
+      "created_at": "2026-02-10T21:29:09.983655+00:00",
+      "project_id": "2330cf00-f14f-4e30-9d5d-97da35c0ef77",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "6d5892d3-2bbd-434a-a84a-1cbce947abc1",
+      "description": "Tune physics parameters to reduce delta vs actual lap times. (auto-generated task #178)"
+    },
+    {
+      "id": "5928dda8-69ce-4568-b5f5-ad7b6e1a33fc",
+      "title": "Track gearbox lifecycle #95",
+      "status": "To Do",
+      "due_date": "2026-02-16T00:27:09.983655+00:00",
+      "priority": "Low",
+      "created_at": "2026-02-10T22:52:09.983655+00:00",
+      "project_id": "2330cf00-f14f-4e30-9d5d-97da35c0ef77",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "7012b93e-161f-4d7f-837f-5722ec080b10",
+      "description": "Record gearbox usage hours and schedule preventive replacements. (auto-generated task #95)"
+    },
+    {
+      "id": "1985119c-3953-4359-b507-0eaf949ff033",
+      "title": "Consolidate testing data into warehouse #12",
+      "status": "In Review",
+      "due_date": "2026-02-23T00:27:09.983655+00:00",
+      "priority": "Medium",
+      "created_at": "2026-02-11T00:15:09.983655+00:00",
+      "project_id": "2330cf00-f14f-4e30-9d5d-97da35c0ef77",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "7cd3ae1f-e23c-4dca-9d82-b4e7d212517e",
+      "description": "ETL latest test session data into analytics warehouse. (auto-generated task #12)"
+    },
+    {
+      "id": "2cde4ff3-8ad3-44a6-a6e0-2e53bde2c5d6",
+      "title": "Consolidate testing data into warehouse",
+      "status": "Completed",
+      "due_date": "2025-06-07T00:00:00+00:00",
+      "priority": "Low",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "2330cf00-f14f-4e30-9d5d-97da35c0ef77",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "ETL latest test session data into analytics warehouse."
+    },
+    {
+      "id": "31ac0b92-c587-49d6-8ae7-257dd936781a",
+      "title": "Track gearbox lifecycle",
+      "status": "In Review",
+      "due_date": "2025-11-04T00:00:00+00:00",
+      "priority": "Low",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "2330cf00-f14f-4e30-9d5d-97da35c0ef77",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "Record gearbox usage hours and schedule preventive replacements."
+    },
+    {
+      "id": "54dc6874-a3b7-4a09-b1d9-6f972f60a76b",
+      "title": "Organize pit stop rehearsals",
+      "status": "Completed",
+      "due_date": "2025-03-02T00:00:00+00:00",
+      "priority": "Low",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "2330cf00-f14f-4e30-9d5d-97da35c0ef77",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "Schedule and run pit crew rehearsals focusing on tyre changes."
+    },
+    {
+      "id": "cadd0d0c-ff1a-4d47-a6e4-8408bc2e411b",
+      "title": "Plan sponsor hospitality at Silverstone",
+      "status": "To Do",
+      "due_date": "2025-04-02T00:00:00+00:00",
+      "priority": "Low",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "2330cf00-f14f-4e30-9d5d-97da35c0ef77",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "Coordinate activations, guest lists, and timing."
+    },
+    {
+      "id": "ec1b23da-46b9-4ef0-92d5-ca132ba94d85",
+      "title": "Update simulator track libraries",
+      "status": "In Progress",
+      "due_date": "2026-03-10T00:00:00+00:00",
+      "priority": "Low",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "2330cf00-f14f-4e30-9d5d-97da35c0ef77",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "Add latest grip maps and track evolution parameters."
+    },
+    {
+      "id": "f3186780-83f4-4051-b4d1-dc25fe2a4c88",
+      "title": "Integrate high-res weather feed",
+      "status": "In Progress",
+      "due_date": "2025-08-09T00:00:00+00:00",
+      "priority": "High",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "2330cf00-f14f-4e30-9d5d-97da35c0ef77",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "Ingest new weather provider and surface predictions into strategy tools."
+    }
+  ],
+  "project_members": [
+    {
+      "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "full_name": "Samuel Mukabi",
+      "email": "mukamau0@gmail.com",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+      "job_title": "Software Engineer"
+    }
+  ],
+  "tasks_count": 9,
+  "progress": 56
+}

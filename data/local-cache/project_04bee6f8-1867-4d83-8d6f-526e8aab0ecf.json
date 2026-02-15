@@ -1,0 +1,100 @@
+{
+  "id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+  "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+  "title": "McLaren MasterCard Formula One Team — Race Weekend Logistics",
+  "description": "Coordinate logistics for race weekends including transport, hospitality, and garage setup.",
+  "status": "Active",
+  "priority": "High",
+  "start_date": "2025-10-15T00:00:00+00:00",
+  "end_date": "2025-04-16T00:00:00+00:00",
+  "color": "#EAB308",
+  "icon": "65.22.11.151",
+  "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+  "created_at": "2026-02-10T22:23:21.838466+00:00",
+  "updated_at": "2026-02-11T02:08:29.846347+00:00",
+  "tasks": [
+    {
+      "id": "500b676f-7816-434f-b491-b5e52716f2ec",
+      "title": "Plan sponsor hospitality at Silverstone #170",
+      "status": "In Progress",
+      "due_date": "2026-03-03T00:27:09.983655+00:00",
+      "priority": "Low",
+      "created_at": "2026-02-10T21:37:09.983655+00:00",
+      "project_id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "10aa4303-db76-4d91-8cb9-255c64834b4d",
+      "description": "Coordinate activations, guest lists, and timing. (auto-generated task #170)"
+    },
+    {
+      "id": "b2f0dd5f-8812-4a6d-84bc-0106d7cf3676",
+      "title": "Improve pit lane ergonomics #87",
+      "status": "In Review",
+      "due_date": "2026-03-10T00:27:09.983655+00:00",
+      "priority": "Medium",
+      "created_at": "2026-02-10T23:00:09.983655+00:00",
+      "project_id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "1ac83b85-44b0-4845-8e35-1573d1ce04af",
+      "description": "Rearrange tooling and practice flow to shave seconds per stop. (auto-generated task #87)"
+    },
+    {
+      "id": "90f1833e-8aa3-4e06-9264-68127f7cf228",
+      "title": "Validate rear wing revision in CFD #4",
+      "status": "In Progress",
+      "due_date": "2026-02-15T00:27:09.983655+00:00",
+      "priority": "Medium",
+      "created_at": "2026-02-11T00:23:09.983655+00:00",
+      "project_id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "27fe9213-7276-4e9a-b836-13648b751f1c",
+      "description": "Run CFD comparisons and summarize downforce/drag changes. (auto-generated task #4)"
+    },
+    {
+      "id": "5ed43efc-1056-4aaa-b4d5-5d3a7f73d571",
+      "title": "Driver performance debrief",
+      "status": "In Review",
+      "due_date": "2025-12-18T00:00:00+00:00",
+      "priority": "Low",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "Compile key telemetry metrics and feedback for driver coaching."
+    },
+    {
+      "id": "61f6bde4-a1fb-4645-af4a-84d472603d68",
+      "title": "Update simulator track libraries",
+      "status": "In Progress",
+      "due_date": "2025-09-10T00:00:00+00:00",
+      "priority": "Low",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "Add latest grip maps and track evolution parameters."
+    },
+    {
+      "id": "94acf68b-ddde-421d-a803-b20d62037a0e",
+      "title": "Consolidate testing data into warehouse",
+      "status": "In Progress",
+      "due_date": "2025-10-14T00:00:00+00:00",
+      "priority": "High",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "ETL latest test session data into analytics warehouse."
+    }
+  ],
+  "project_members": [
+    {
+      "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "full_name": "Samuel Mukabi",
+      "email": "mukamau0@gmail.com",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+      "job_title": "Software Engineer"
+    }
+  ],
+  "tasks_count": 6,
+  "progress": 42
+}

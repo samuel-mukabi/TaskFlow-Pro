@@ -1,0 +1,1129 @@
+[
+  {
+    "id": "5447ec67-a26a-4ddc-bc61-b621806e1ad5",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Custom F1 Project 22",
+    "description": "Custom F1 project generated for this workspace; please update specifics.",
+    "status": "Planning",
+    "priority": "High",
+    "start_date": "2021-03-05T17:22:35+00:00",
+    "end_date": "2021-09-25T08:19:03+00:00",
+    "color": "#22C55E",
+    "icon": null,
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T23:57:32.565022+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "Completed"
+      }
+    ],
+    "project_members": [],
+    "tasks_count": 3,
+    "progress": 42
+  },
+  {
+    "id": "01acc9ae-5054-49fe-8ead-4533043f04b0",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Tyre Strategy Optimization",
+    "description": "Develop and validate tyre strategies using historical data and simulations to maximize race-day performance.",
+    "status": "Active",
+    "priority": "Low",
+    "start_date": "2025-03-01T07:38:22+00:00",
+    "end_date": "2026-02-15T00:34:31+00:00",
+    "color": "#F97316",
+    "icon": "123.66.191.141",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Progress"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 7,
+    "progress": 68
+  },
+  {
+    "id": "25af3db8-70a5-4f94-8894-a16fa7733f30",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Driver Performance Analysis",
+    "description": "Analyze driver telemetry to identify areas for lap time improvements and consistency.",
+    "status": "Archived",
+    "priority": "High",
+    "start_date": "2026-04-02T17:27:13+00:00",
+    "end_date": "2026-09-30T04:10:11+00:00",
+    "color": "#EC4899",
+    "icon": "111.59.87.125",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Progress"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 4,
+    "progress": 50
+  },
+  {
+    "id": "3407144b-1595-42c6-822c-d94d6499b39e",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Custom F1 Project 21",
+    "description": "Custom F1 project generated for this workspace; please update specifics.",
+    "status": "Planning",
+    "priority": "High",
+    "start_date": "2024-09-09T02:43:03+00:00",
+    "end_date": "2025-08-06T16:36:49+00:00",
+    "color": "#06B6D4",
+    "icon": null,
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T23:57:32.565022+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Review"
+      }
+    ],
+    "project_members": [],
+    "tasks_count": 3,
+    "progress": 92
+  },
+  {
+    "id": "4260b587-1871-458e-87b8-2c8b049bd297",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Simulation Environment",
+    "description": "Enhance the race simulator fidelity for setup validation and driver training.",
+    "status": "Planning",
+    "priority": "Low",
+    "start_date": "2023-05-17T03:52:08+00:00",
+    "end_date": "2024-04-28T16:13:26+00:00",
+    "color": "#A78BFA",
+    "icon": "172.132.91.177",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Progress"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 7,
+    "progress": 43
+  },
+  {
+    "id": "45a0e81f-7978-4882-a894-7feea582cfbf",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Brake Cooling Management",
+    "description": "Develop adaptive brake cooling strategies to maintain optimal temperatures across tracks.",
+    "status": "Planning",
+    "priority": "Low",
+    "start_date": "2024-01-10T21:09:34+00:00",
+    "end_date": "2024-05-08T23:42:40+00:00",
+    "color": "#EC4899",
+    "icon": "46.245.119.208",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Progress"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 9,
+    "progress": 50
+  },
+  {
+    "id": "4dff03c4-20f0-4367-a57e-6fe0de6cff98",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Sponsorship Activation",
+    "description": "Plan and execute sponsor activations and hospitality to maximize ROI during events.",
+    "status": "Active",
+    "priority": "High",
+    "start_date": "2020-01-17T09:00:51+00:00",
+    "end_date": "2020-11-04T15:30:26+00:00",
+    "color": "#F59E0B",
+    "icon": "160.65.133.166",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Review"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 8,
+    "progress": 50
+  },
+  {
+    "id": "72532eb4-a78e-4859-b828-844a2cebdebc",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Telemetry Anomaly Detection",
+    "description": "Implement real-time anomaly detection on telemetry streams to alert engineers instantly.",
+    "status": "Active",
+    "priority": "Medium",
+    "start_date": "2024-05-31T09:11:03+00:00",
+    "end_date": "2025-01-10T22:34:54+00:00",
+    "color": "#8B5CF6",
+    "icon": "89.112.72.73",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "Completed"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 10,
+    "progress": 48
+  },
+  {
+    "id": "7a523af6-20ab-40b4-b1be-681ae862d6a1",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Data Warehouse Consolidation",
+    "description": "Consolidate race and testing data into a central warehouse for unified analytics.",
+    "status": "Archived",
+    "priority": "Medium",
+    "start_date": "2024-11-20T21:35:07+00:00",
+    "end_date": "2025-03-19T02:34:05+00:00",
+    "color": "#EF4444",
+    "icon": "89.91.187.40",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "To Do"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 9,
+    "progress": 28
+  },
+  {
+    "id": "7df73c8c-e3dc-4b06-9af7-878719b736c8",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Car Setup Database",
+    "description": "Create a searchable database of car setups by track, weather, and driver preferences.",
+    "status": "Archived",
+    "priority": "Low",
+    "start_date": "2020-11-08T09:24:34+00:00",
+    "end_date": "2021-03-18T07:05:07+00:00",
+    "color": "#F59E0B",
+    "icon": "239.246.187.186",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Progress"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 8,
+    "progress": 22
+  },
+  {
+    "id": "89bc3504-6f7b-4bf4-a3a7-9c365b03ad05",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Weather Modeling Integration",
+    "description": "Integrate high-resolution weather forecasts into strategy planning tools.",
+    "status": "Planning",
+    "priority": "Low",
+    "start_date": "2021-09-13T00:35:09+00:00",
+    "end_date": "2021-11-14T18:50:12+00:00",
+    "color": "#22C55E",
+    "icon": "198.105.191.228",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "Completed"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 8,
+    "progress": 59
+  },
+  {
+    "id": "a2f07d5b-674f-4d89-b362-06cf377be4aa",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Component Lifecycle Tracking",
+    "description": "Track component usage and lifecycle to optimize replacements and reliability.",
+    "status": "Active",
+    "priority": "Medium",
+    "start_date": "2026-06-19T02:20:32+00:00",
+    "end_date": "2026-08-06T12:23:05+00:00",
+    "color": "#F43F5E",
+    "icon": "89.65.119.19",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "Completed"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 6,
+    "progress": 79
+  },
+  {
+    "id": "b581db27-9dd4-4d40-a8e2-c9a920edb324",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Custom F1 Project 23",
+    "description": "Custom F1 project generated for this workspace; please update specifics.",
+    "status": "Archived",
+    "priority": "Medium",
+    "start_date": "2026-05-30T02:50:08+00:00",
+    "end_date": "2027-02-12T08:02:43+00:00",
+    "color": "#22C55E",
+    "icon": null,
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T23:57:32.565022+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "Completed"
+      }
+    ],
+    "project_members": [],
+    "tasks_count": 3,
+    "progress": 83
+  },
+  {
+    "id": "be694b1d-6269-4f8d-b0be-ada1183e9930",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Live Strategy Dashboard",
+    "description": "Build a live operations dashboard for race engineers with key metrics and alerts.",
+    "status": "Archived",
+    "priority": "Low",
+    "start_date": "2022-04-26T00:44:32+00:00",
+    "end_date": "2022-05-08T23:59:06+00:00",
+    "color": "#06B6D4",
+    "icon": "137.166.246.220",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Review"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 6,
+    "progress": 58
+  },
+  {
+    "id": "c0c69502-72d8-44a2-9fcf-3ef959eaa958",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Compliance & Safety Review",
+    "description": "Audit safety procedures and ensure compliance with FIA regulations and team policies.",
+    "status": "Active",
+    "priority": "High",
+    "start_date": "2021-07-18T15:01:41+00:00",
+    "end_date": "2022-05-20T09:28:05+00:00",
+    "color": "#3B82F6",
+    "icon": "37.103.185.54",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "To Do"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 3,
+    "progress": 17
+  },
+  {
+    "id": "030c0fed-5d4a-4954-942a-a618b8f01618",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Telemetry Pipeline Upgrade",
+    "description": "Upgrade telemetry ingestion and processing pipeline for lower latency and higher throughput during sessions.",
+    "status": "Planning",
+    "priority": "High",
+    "start_date": "2022-09-23T23:03:33+00:00",
+    "end_date": "2023-03-21T18:12:43+00:00",
+    "color": "#F59E0B",
+    "icon": "239.254.70.191",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Progress"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 7,
+    "progress": 21
+  },
+  {
+    "id": "04bee6f8-1867-4d83-8d6f-526e8aab0ecf",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Race Weekend Logistics",
+    "description": "Coordinate logistics for race weekends including transport, hospitality, and garage setup.",
+    "status": "Active",
+    "priority": "High",
+    "start_date": "2021-12-12T21:23:15+00:00",
+    "end_date": "2022-03-23T22:52:58+00:00",
+    "color": "#EAB308",
+    "icon": "65.22.11.151",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Progress"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 6,
+    "progress": 42
+  },
+  {
+    "id": "1bfc32cb-33ee-424e-855e-75106501a127",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Aerodynamics Development",
+    "description": "Design and test new aero components in CFD and wind tunnel to improve downforce and efficiency.",
+    "status": "Planning",
+    "priority": "Medium",
+    "start_date": "2026-06-08T01:02:54+00:00",
+    "end_date": "2026-12-05T11:40:28+00:00",
+    "color": "#3B82F6",
+    "icon": "149.63.75.248",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "To Do"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 12,
+    "progress": 38
+  },
+  {
+    "id": "2330cf00-f14f-4e30-9d5d-97da35c0ef77",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Fuel Consumption Modeling",
+    "description": "Build predictive models for fuel usage to optimize stint lengths and pit stop timing.",
+    "status": "Planning",
+    "priority": "High",
+    "start_date": "2021-02-24T04:32:30+00:00",
+    "end_date": "2021-05-13T23:56:14+00:00",
+    "color": "#8B5CF6",
+    "icon": "194.204.190.69",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Progress"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 9,
+    "progress": 56
+  },
+  {
+    "id": "2b736ccc-7392-447f-bbbe-5375d83e4558",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Pit Stop Efficiency",
+    "description": "Streamline pit stop procedures and practice sequences to reduce average stop time.",
+    "status": "Active",
+    "priority": "High",
+    "start_date": "2024-01-11T20:54:47+00:00",
+    "end_date": "2024-10-04T07:56:19+00:00",
+    "color": "#F97316",
+    "icon": "251.40.164.180",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "In Progress"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 11,
+    "progress": 52
+  },
+  {
+    "id": "eff4a170-6222-4d9e-aec8-536e878c606e",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Simulator-to-Car Calibration",
+    "description": "Improve calibration workflows to better match simulator behavior with on-track performance.",
+    "status": "Active",
+    "priority": "Medium",
+    "start_date": "2025-06-16T12:28:33+00:00",
+    "end_date": "2025-11-17T19:02:06+00:00",
+    "color": "#EAB308",
+    "icon": "115.206.94.111",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Progress"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 7,
+    "progress": 54
+  },
+  {
+    "id": "fc0fa3f5-96b6-4b1a-81d6-66db8faf367d",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Sponsor Data Reporting",
+    "description": "Automate reporting of sponsor exposure and impressions across channels and events.",
+    "status": "Archived",
+    "priority": "Low",
+    "start_date": "2024-07-12T13:00:18+00:00",
+    "end_date": "2025-02-11T20:26:15+00:00",
+    "color": "#10B981",
+    "icon": "189.164.54.231",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Progress"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 12,
+    "progress": 54
+  },
+  {
+    "id": "fe579f00-c9b4-42eb-9089-fc95ceee2290",
+    "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+    "title": "McLaren MasterCard Formula One Team — Hybrid System Diagnostics",
+    "description": "Develop diagnostics for hybrid power units to prevent failures during sessions.",
+    "status": "Active",
+    "priority": "Medium",
+    "start_date": "2021-07-30T06:44:30+00:00",
+    "end_date": "2022-04-07T04:49:02+00:00",
+    "color": "#06B6D4",
+    "icon": "52.60.192.126",
+    "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "created_at": "2026-02-10T22:23:21.838466+00:00",
+    "updated_at": "2026-02-13T06:00:10.76701+00:00",
+    "tasks": [
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "To Do"
+      },
+      {
+        "status": "Completed"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Progress"
+      },
+      {
+        "status": "In Review"
+      },
+      {
+        "status": "To Do"
+      }
+    ],
+    "project_members": [
+      {
+        "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+        "full_name": "Samuel Mukabi",
+        "email": "mukamau0@gmail.com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+        "job_title": "Software Engineer"
+      }
+    ],
+    "tasks_count": 11,
+    "progress": 43
+  }
+]

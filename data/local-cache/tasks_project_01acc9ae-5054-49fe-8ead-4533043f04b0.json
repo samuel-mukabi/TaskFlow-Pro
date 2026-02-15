@@ -1,0 +1,86 @@
+[
+  {
+    "id": "163235e2-98b0-4cfd-b476-49f8a2566b5f",
+    "project_id": "01acc9ae-5054-49fe-8ead-4533043f04b0",
+    "title": "Update simulator track libraries #168",
+    "description": "Add latest grip maps and track evolution parameters. (auto-generated task #168)",
+    "status": "In Review",
+    "priority": "High",
+    "assignee_id": "ff9ac38b-429b-4704-b106-c460e644e88b",
+    "due_date": "2026-03-01T00:27:09.983655+00:00",
+    "created_at": "2026-02-10T21:39:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "d70cb540-26d1-4c0f-8dcf-69f77fa6f4b1",
+    "project_id": "01acc9ae-5054-49fe-8ead-4533043f04b0",
+    "title": "Recalibrate fuel consumption model #85",
+    "description": "Retrain fuel model with latest session data for stint predictions. (auto-generated task #85)",
+    "status": "In Review",
+    "priority": "Low",
+    "assignee_id": "025e5b92-1679-4c22-b78d-1e1ac8e37a08",
+    "due_date": "2026-03-08T00:27:09.983655+00:00",
+    "created_at": "2026-02-10T23:02:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "625cc63a-e993-423f-b870-916124eeff23",
+    "project_id": "01acc9ae-5054-49fe-8ead-4533043f04b0",
+    "title": "Reduce telemetry ingestion latency #2",
+    "description": "Refactor ingestion pipeline to lower end-to-end latency under 200ms. (auto-generated task #2)",
+    "status": "In Progress",
+    "priority": "Medium",
+    "assignee_id": "10aa4303-db76-4d91-8cb9-255c64834b4d",
+    "due_date": "2026-02-13T00:27:09.983655+00:00",
+    "created_at": "2026-02-11T00:25:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "58e67c99-d704-43df-872a-462f4085a85a",
+    "project_id": "01acc9ae-5054-49fe-8ead-4533043f04b0",
+    "title": "Validate rear wing revision in CFD",
+    "description": "Run CFD comparisons and summarize downforce/drag changes.",
+    "status": "Completed",
+    "priority": "Low",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2025-05-20T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "9ac6d64a-2e2f-43eb-8daf-9ea0f4afc8b1",
+    "project_id": "01acc9ae-5054-49fe-8ead-4533043f04b0",
+    "title": "Deploy live strategy dashboard widgets",
+    "description": "Add stint prediction and tyre temp heatmap widgets.",
+    "status": "In Review",
+    "priority": "Low",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2025-05-05T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "e07088cc-5e64-440b-87f1-c0e29acf3c3e",
+    "project_id": "01acc9ae-5054-49fe-8ead-4533043f04b0",
+    "title": "Optimize tyre stint allocations for Monza",
+    "description": "Analyze degradation curves and propose optimal tyre stint lengths.",
+    "status": "Completed",
+    "priority": "High",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2025-12-27T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "f0c8e1c8-1bad-461a-9a12-8206f738f3cc",
+    "project_id": "01acc9ae-5054-49fe-8ead-4533043f04b0",
+    "title": "Implement real-time anomaly alerts",
+    "description": "Deploy rules to notify engineers on telemetry anomalies.",
+    "status": "In Progress",
+    "priority": "Low",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2025-03-09T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  }
+]
