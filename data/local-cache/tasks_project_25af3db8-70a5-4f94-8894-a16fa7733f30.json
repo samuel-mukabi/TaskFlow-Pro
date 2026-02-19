@@ -1,0 +1,50 @@
+[
+  {
+    "id": "da5f5262-8519-4c33-b4b9-13391a9bdaa2",
+    "project_id": "25af3db8-70a5-4f94-8894-a16fa7733f30",
+    "title": "Run hybrid system health check #180",
+    "description": "Execute diagnostics and log any degradation events. (auto-generated task #180)",
+    "status": "In Review",
+    "priority": "Low",
+    "assignee_id": "7cd3ae1f-e23c-4dca-9d82-b4e7d212517e",
+    "due_date": "2026-02-11T00:27:09.983655+00:00",
+    "created_at": "2026-02-10T21:27:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "5d329327-e9e8-4301-9bad-9cfbdf3c6291",
+    "project_id": "25af3db8-70a5-4f94-8894-a16fa7733f30",
+    "title": "Complete safety compliance checklist #97",
+    "description": "Verify all garage and transport items meet FIA standards. (auto-generated task #97)",
+    "status": "To Do",
+    "priority": "Medium",
+    "assignee_id": "98fda457-79dc-49a0-b357-307643778ff6",
+    "due_date": "2026-02-18T00:27:09.983655+00:00",
+    "created_at": "2026-02-10T22:50:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "3fcd4175-034b-4378-a319-f906bec1773b",
+    "project_id": "25af3db8-70a5-4f94-8894-a16fa7733f30",
+    "title": "Integrate high-res weather feed #14",
+    "description": "Ingest new weather provider and surface predictions into strategy tools. (auto-generated task #14)",
+    "status": "Completed",
+    "priority": "High",
+    "assignee_id": "a236a40b-af28-49f2-9efa-24809c1d8374",
+    "due_date": "2026-02-25T00:27:09.983655+00:00",
+    "created_at": "2026-02-11T00:13:09.983655+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  },
+  {
+    "id": "524a3bd1-0b97-4f81-8ad0-6472d3050507",
+    "project_id": "25af3db8-70a5-4f94-8894-a16fa7733f30",
+    "title": "Optimize tyre stint allocations for Monza",
+    "description": "Analyze degradation curves and propose optimal tyre stint lengths.",
+    "status": "In Progress",
+    "priority": "Medium",
+    "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+    "due_date": "2025-09-30T00:00:00+00:00",
+    "created_at": "2026-02-10T22:37:19.246859+00:00",
+    "updated_at": "2026-02-11T23:58:47.55635+00:00"
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "id": "25af3db8-70a5-4f94-8894-a16fa7733f30",
+  "workspace_id": "46d4affc-a03b-423a-8dc0-e70a29edd14d",
+  "title": "McLaren MasterCard Formula One Team — Driver Performance Analysis",
+  "description": "Analyze driver telemetry to identify areas for lap time improvements and consistency.",
+  "status": "Archived",
+  "priority": "High",
+  "start_date": "2026-04-02T17:27:13+00:00",
+  "end_date": "2026-09-30T04:10:11+00:00",
+  "color": "#EC4899",
+  "icon": "111.59.87.125",
+  "created_by": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+  "created_at": "2026-02-10T22:23:21.838466+00:00",
+  "updated_at": "2026-02-13T06:00:10.76701+00:00",
+  "tasks": [
+    {
+      "id": "da5f5262-8519-4c33-b4b9-13391a9bdaa2",
+      "title": "Run hybrid system health check #180",
+      "status": "In Review",
+      "due_date": "2026-02-11T00:27:09.983655+00:00",
+      "priority": "Low",
+      "created_at": "2026-02-10T21:27:09.983655+00:00",
+      "project_id": "25af3db8-70a5-4f94-8894-a16fa7733f30",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "7cd3ae1f-e23c-4dca-9d82-b4e7d212517e",
+      "description": "Execute diagnostics and log any degradation events. (auto-generated task #180)"
+    },
+    {
+      "id": "5d329327-e9e8-4301-9bad-9cfbdf3c6291",
+      "title": "Complete safety compliance checklist #97",
+      "status": "To Do",
+      "due_date": "2026-02-18T00:27:09.983655+00:00",
+      "priority": "Medium",
+      "created_at": "2026-02-10T22:50:09.983655+00:00",
+      "project_id": "25af3db8-70a5-4f94-8894-a16fa7733f30",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "98fda457-79dc-49a0-b357-307643778ff6",
+      "description": "Verify all garage and transport items meet FIA standards. (auto-generated task #97)"
+    },
+    {
+      "id": "3fcd4175-034b-4378-a319-f906bec1773b",
+      "title": "Integrate high-res weather feed #14",
+      "status": "Completed",
+      "due_date": "2026-02-25T00:27:09.983655+00:00",
+      "priority": "High",
+      "created_at": "2026-02-11T00:13:09.983655+00:00",
+      "project_id": "25af3db8-70a5-4f94-8894-a16fa7733f30",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "a236a40b-af28-49f2-9efa-24809c1d8374",
+      "description": "Ingest new weather provider and surface predictions into strategy tools. (auto-generated task #14)"
+    },
+    {
+      "id": "524a3bd1-0b97-4f81-8ad0-6472d3050507",
+      "title": "Optimize tyre stint allocations for Monza",
+      "status": "In Progress",
+      "due_date": "2025-09-30T00:00:00+00:00",
+      "priority": "Medium",
+      "created_at": "2026-02-10T22:37:19.246859+00:00",
+      "project_id": "25af3db8-70a5-4f94-8894-a16fa7733f30",
+      "updated_at": "2026-02-11T23:58:47.55635+00:00",
+      "assignee_id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "description": "Analyze degradation curves and propose optimal tyre stint lengths."
+    }
+  ],
+  "project_members": [
+    {
+      "id": "b1d3ac96-6f71-4219-a199-e002ba81036d",
+      "full_name": "Samuel Mukabi",
+      "email": "mukamau0@gmail.com",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95908184?v=4",
+      "job_title": "Software Engineer"
+    }
+  ],
+  "tasks_count": 4,
+  "progress": 50
+}

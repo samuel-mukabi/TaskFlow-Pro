@@ -67,3 +67,44 @@ export async function fetchWorkspaceMembers(workspaceId: string | null | undefin
     if (!workspaceId) return [];
     return getTieredWorkspaceMembers(workspaceId);
 }
+
+export async function addWorkspaceMember(workspaceId: string, userId: string) {
+    const supabase = await createClient()
+    const { data, error } = await supabase
+        .from('workspace_members')
+        .insert({ workspace_id: workspaceId, profile_id: userId })
+
+    if (error) {
+        console.error("Supabase insert error:", error)
+        return null
+    }
+    const cacheKey = `workspace:members:${workspaceId}`
+    try {
+        if (data) {
+            await redis.set(cacheKey, data, { ex: 600 })
+        }
+    } catch (error) {
+        console.error("Redis cache error:", error)
+    }
+    return data
+}
+
+export async function addProjectMember(projectId: string, userId: string) {
+    const supabase = await createClient()
+    const { data, error } = await supabase
+        .from('project_members')
+        .insert({ project_id: projectId, profile_id: userId })
+        .select()
+        .single()
+    if (error) {
+        console.error("Supabase insert error:", error)
+        return null
+    }
+    const cacheKey = `project:members:${projectId}`
+    try {
+        await redis.del(cacheKey)
+    } catch (error) {
+        console.error("Redis cache error:", error)
+    }
+    return data
+}

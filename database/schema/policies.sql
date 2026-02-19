@@ -78,6 +78,13 @@ CREATE POLICY "Project members are viewable by workspace members" ON public.proj
         )
     );
 
+CREATE POLICY "Workspace members can add project members" ON public.project_members
+    FOR INSERT WITH CHECK (
+        project_id IN (
+            SELECT id FROM public.projects WHERE workspace_id IN (SELECT get_user_workspace_ids())
+        )
+    );
+
 -- Tasks Policies
 CREATE POLICY "Tasks are viewable by workspace members" ON public.tasks
     FOR SELECT USING (

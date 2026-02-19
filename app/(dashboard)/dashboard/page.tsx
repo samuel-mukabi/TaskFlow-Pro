@@ -38,8 +38,8 @@ const Dashboard = () => {
                 <UpcomingDeadlines/>
             </div>
 
-            {/* Project Progress Section */}
-            <ProjectProgress/>
+            {/*/!* Project Progress Section *!/*/}
+            {/*<ProjectProgress/>*/}
         </div>
     )
 }
